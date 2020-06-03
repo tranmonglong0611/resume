@@ -1,0 +1,147 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheadTwo}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubhead}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\normalsize#3}
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\link}[2]{{\color{blue}\href{#1}{#2}}}
+
+% \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%              CV STARTS HERE              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\huge Tran Mong Long} & Email: tranmonglong0611@gmail.com\\
+  & Github: github.com/tranmonglong0611 \\
+    & Mobile: +84 38 285 1969 
+\end{tabular*}
+
+
+%----------SUMMARY-----------------
+\section{Summary}
+  \resumeSubHeadingListStart
+    \resumeItemListStart
+    \resumeItem{Software Engineer at Tiki Corporation in 2019 \& 2020}
+      \resumeItem{Software Engineer at Viettel Network in 2018 \& 2019}
+      \resumeItem{Experience with Java, Golang}
+      \resumeItem{Experience with tools Git, Docker}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubhead
+    {Tiki Corporation}{Jul. 2019 -- Now}
+      {Software Engineer}
+      \resumeItemListStart
+      \resumeItem{Implemented training job for long-term and short-term recommendation for tiki.vn}
+      \resumeItem{Implemented recommendation web service}
+      \resumeItem{Developed advertisement system for tiki.vn}
+      \resumeItem{Language/Technology: \textbf{Java} \& \textbf{Golang}.}
+      \resumeItemListEnd
+
+    \resumeSubhead
+    {Viettel Network}{May. 2018 -- May. 2019}
+      {Software Engineer}
+      \resumeItemListStart
+      \resumeItem{Developed a tool to monitor and audit error happening on the network}
+      \resumeItem{Language/Technology: \textbf{AngularJs}, \textbf{Java} \& \textbf{MySql}.}
+      \resumeItemListEnd
+
+    \resumeSubhead
+    {Vinagame Corporation}{Jun. 2017 -- December. 2017}
+    {Mobile Game Developer Intern}
+      \resumeItemListStart
+      \resumeItem{Developed farmery game}
+      \resumeItem{Language/Technology: \textbf{cocos2dx}, \textbf{Javascript}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------AWARDS----------
+
+
+%----------ACTIVITIES------------
+
+
+%-----------EDUCATION------------
+\section{Education}
+  \resumeSubHeadingListStart
+  \resumeSubhead
+    {Hanoi University of Science and Technology}{Sep. 2013 -- Sep. 2018}
+    {Student of Computer Science;  GPA: 3.01/4.00}
+    \resumeSubhead
+    {Chu Van An Specialized and Gifted High School}{Sep. 2010 -- Jun. 2013}
+    {Focus on Math}
+  \resumeSubHeadingListEnd
+
+\end{document}

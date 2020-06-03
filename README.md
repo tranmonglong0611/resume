@@ -1,5 +1,5 @@
 # Compile to pdf
 
 ```
-texi2pdf PhamVanHanh.tex
+texi2pdf TranMongLong.tex
 ```
